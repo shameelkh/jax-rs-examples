@@ -10,6 +10,7 @@ public class RestApplication extends Application {
     public Set<Class<?>> getClasses() {
         Set<Class<?>> set = new HashSet<Class<?>>();
         set.add(Movies.class);
+        set.add(Games.class);
         return set;
     }
 }
